@@ -6,15 +6,13 @@ compiler:
 script:
  - gcc -o clac clac.c // we can use gcc instead of clang too
  - ./test 
- script:
  - gcc -o cac cac.c // we can use gcc instead of clang too
  - ./test 
- script:
  - gcc -o binary_search binary_search.c // we can use gcc instead of clang too
  - ./test 
- script:
+
  - gcc -o simple calci simple calci.c // we can use gcc instead of clang too
  - ./test 
-  script:
+
  - gcc -o  calc_m calc_m.c // we can use gcc instead of clang too
  - ./test 
