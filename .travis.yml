@@ -1,20 +1,19 @@
 language: c
 sudo: false # only for faster builds
 compiler: 
- - clang
  - gcc
 script:
- - gcc -o clac clac.c // we can use gcc instead of clang too
+ - gcc -o clac clac.c
  - ./clac 
  
- - gcc -o cac cac.c // we can use gcc instead of clang too
+ - gcc -o cac cac.c
  - ./cac 
  
- - gcc -o binary_search binary_search.c // we can use gcc instead of clang too
+ - gcc -o binary_search binary_search.c
  - ./binary_search 
 
- - gcc -o simple calci simple calci.c // we can use gcc instead of clang too
+ - gcc -o simple calci simple calci.c
  - ./simple calci 
 
- - gcc -o  calc_m calc_m.c // we can use gcc instead of clang too
+ - gcc -o  calc_m calc_m.c
  - ./test calc_m
